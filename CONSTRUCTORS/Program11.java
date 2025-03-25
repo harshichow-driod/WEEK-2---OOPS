@@ -1,5 +1,3 @@
-
-
 class Book{
     public String isbn;
     protected String title;
@@ -21,7 +19,7 @@ class Book{
         System.out.println("Title: "+title);
         System.out.println("Author: "+author);
     }
-   
+    
 }
 class EBook extends Book{
     private double size;
@@ -37,7 +35,7 @@ class EBook extends Book{
     }
 
 }
-public class Mod2 {
+public class Program11 {
     public static void main(String[] args) {
         Book b1=new Book("123-456-789", "Java Programming", "John Doe");
         b1.display();
@@ -47,6 +45,5 @@ public class Mod2 {
         EBook e1=new EBook("987-654-321", "Python for AI", "Alice Brown", 2.5);
         e1.displayEbook();
     }
-   
+    
 }
-

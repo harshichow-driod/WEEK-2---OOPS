@@ -1,4 +1,3 @@
-
 class Student{
     public int rollNumber;
     protected String name;
@@ -36,9 +35,9 @@ class PostgraduateStudent extends Student{
         System.out.println("Specialization: "+specialization);
     }
 
-   
+    
 }
-public class Mod1 {
+public class Program10 {
     public static void main(String[] args) {
         Student s1=new Student(412, "Rakesh", 9.59);
         s1.display();
@@ -49,6 +48,5 @@ public class Mod1 {
         PostgraduateStudent p1=new PostgraduateStudent(409,"Harshi",9.5,"Iot");
         p1.displayPostGraduate();
     }
-   
+    
 }
-

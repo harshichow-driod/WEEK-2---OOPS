@@ -35,7 +35,7 @@ class Manager extends Employee{
         System.out.println("Team: "+team);
     }
 }
-public class Mod4 {
+public class Program13 {
     public static void main(String[] args) {
         Employee person1=new Employee(21,"HR",30000);
         person1.display();
@@ -45,5 +45,5 @@ public class Mod4 {
         Manager m1=new Manager(202, "IT", 80000, "Development Team");
         m1.displayManager();
     }
-   
+    
 }

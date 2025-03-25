@@ -42,7 +42,7 @@ class SavingsAccount extends BankAccount{
         System.out.println("Interest Rate: "+interestRate+"%");
     }
 }
-public class Mod3 {
+public class Program12 {
     public static void main(String[] args) {
         BankAccount account1=new BankAccount(73054, "Rakesh", 1200000);
         System.out.println("Account Details:");
@@ -53,5 +53,5 @@ public class Mod3 {
         SavingsAccount s1=new SavingsAccount(12245, "Monesh", 345000, 2.5);
         s1.displaySavingsAccount();
     }
-   
+    
 }
